@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.hero{
+    background-image: url('../IMG/bg_hero.jpg.webp');
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.471);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.v-h-full {
+    height: 100vh;
+    min-height: 700px;
+}
+
+.heading-2 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.subheading {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.FOR-bottom{
+    padding-top: 7rem; 
+    position: relative;
+    top: 570px;
+}
+
+ .countdownSec{
+    background-color: black;
+    padding: 100px 0px 100px 0px;
+    padding-bottom: 7rem; 
+ }
+
+ .ServicesSec{
+    background-color:  #efefef ;
+    position: relative;
+    bottom: 520px;
+ }
+
+ .section-3 .box-white {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -50px;
+}
+
+.heading {
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.section-3 .img-overlap {
+    margin-top: -100px;
+    width: 500px;
+    position: relative;
+    left: 80px;
+}
+
+.icon i{
+    color: blueviolet;
+}
+ 
+.iconS{
+    margin-top: 100px;
+}
+.aboutsec{
+    position: relative;
+    top: 100px;
+}
+
+.section-4{
+background-color: black;    
+}
+
+.sec{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background-color: #000;
+}
+.price-card{
+    padding: 40px;
+    background-color: #743ad5;
+    text-align: center;
+    border-radius: 7px;
+    height: 60vh;
+}
+
+.subtitle 
+{
+    letter-spacing: 2px;
+}
+
+/* footer */
+footer p{
+	font-family: calibri;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+}
+
+footer p:nth-child(2){
+	font-size: 16px;
+	color:#7e7d7d;
+	text-align: center;
+}
+footer{
+	height:400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.social-icons a{
+	width:40px;
+	height:40px;
+	margin:20px 10px;
+    text-decoration: none;
+}
+
+
+.social-icons a:hover{
+	background-color:#000000;
+	transition:all ease 0.5s;    
+}
+.social-icons a:hover i,
+.social a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+ 
+.copyright{
+	color:#565555;
+	left:50%;
+	bottom:10px;
+	transform: translateX(-50%);
+}
+
+
+.social a:hover{
+	background-color:#000000;
+	transition:all ease 0.5s;
+}
